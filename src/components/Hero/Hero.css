@@ -1,0 +1,32 @@
+.hero__wrapp{
+    display: flex;
+    justify-content: space-around ;
+
+}
+.hero__about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* max-width: 400px; */
+    max-width: 700px;
+    h2{
+        color: #c7974b ;
+        font-size: 52px;
+    }
+    p{
+max-width: 650px;
+        /* max-width: 400px; */
+    }
+    span{
+        font-weight: 800;
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+}
+.hero__img{
+    img{
+        /* background-color: black; */
+        width: 400px;
+        filter: brightness(50%);
+    }
+}

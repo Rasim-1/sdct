@@ -1,0 +1,10 @@
+.info__wrapp{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info__img{
+    img{
+        
+    }
+}

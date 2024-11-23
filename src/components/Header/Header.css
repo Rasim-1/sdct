@@ -1,0 +1,32 @@
+.header__wrapp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+margin: 20px;
+margin-bottom: 100px;
+}
+.header__menu{
+    display: flex;
+    gap: 20px;
+    
+    button{
+        background-color: white;
+        border: none;
+        font-size: 18px;
+    }
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 1s;
+&:hover{
+    color: #c7974b;
+}
+}
+.header__logo{
+    h2{
+        font-weight: 700;
+    }
+}
