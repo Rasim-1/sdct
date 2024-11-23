@@ -1,0 +1,40 @@
+.info__wrapp{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+  
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.info__about{
+   max-width: 550px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h3{
+        color: #c7974b;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    p{
+        color: gray;
+        font-size: 20px;
+        transition: 1s;
+    &:hover{
+
+        color: #c7974b;
+    }
+    }
+
+}
+.info__img{
+    img{
+        width: 400px;
+        height: 400px;
+     
+        // width: 100%;
+    }
+}

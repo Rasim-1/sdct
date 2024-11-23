@@ -1,0 +1,97 @@
+.why_us {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 70px;
+    // background: ;
+    // color: #fff;
+}
+
+.why_us_title {
+    font-size: 30px;
+    padding: 50px;
+    margin-bottom: 30px;
+    color: #c7974b;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.item {
+    flex: 1;
+    margin: 20px;
+}
+
+.item_title {
+  font-size: 30px;
+   margin-bottom: 15px;
+}
+
+.item_text  {
+  font-size: 20px;
+}
+
+.image {
+  text-align: right;
+}
+
+.image img {
+    width: 18%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.our_users {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    // background: #1A0134;
+    // color: #fff;
+    padding: 20px;
+    margin-bottom: 7%;
+}
+
+.our_users_title{
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+
+.content_our{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1;
+    margin: 100px;
+    text-align: center;
+}
+
+.item_img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.item_text_desc{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.item_text_decor{
+    font-size: 20px;
+}

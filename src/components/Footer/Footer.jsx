@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Footer.module.scss'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -21,10 +22,14 @@ const Footer = () => {
         <img src="/sdct.jpg" alt="" className={s.sdct} />
 
         <div className={s.socials}>
-         <img className={s.social} src="/icons/instagram.svg" alt="" />
-         <img className={s.social} src="/icons/youtube.svg" alt="" />
-         <img className={s.social} src="/icons/twitter.svg" alt="" />
-         <img className={s.social} src="/icons/facebook.svg" alt="" />
+        
+         <a href="https://www.instagram.com/sdct?igsh=ZDU4cmFkNTNibjRh"> <img className={s.social} src="/instagram.svg" alt="" /></a>
+         
+        
+         <a href="#"><img className={s.social} src="/youtube.svg" alt="" /></a>
+         <a href="#"><img className={s.social} src="/twitter.svg" alt="" /></a>
+         <a href="#"><img className={s.social} src="/facebook.svg" alt="" /></a>
+         <a href="https://t.me/StudentChat_offical"><img className={s.social} src="/tg.webp" alt="" /></a>
 
         </div>
 

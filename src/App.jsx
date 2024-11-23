@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Group from './Pages/Group'
 import News from './Pages/News'
 import Teacher from './Pages/Teacher'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
 <Route path='/News' element={<News/>}/>
 <Route path='/Teacher' element={<Teacher/>}/>
 </Routes>
-
+<Footer/>
 
 
 </>
